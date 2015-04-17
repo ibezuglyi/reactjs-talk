@@ -12,6 +12,9 @@
             padding: 0;
             display: block;
         }
+				h2 small{
+					font-size:0.8em;
+				}
     </style>
 </head>
 <body class="list">
@@ -140,16 +143,49 @@
 				<a href="https://facebook.github.io/react/docs/reusable-components.html">More...</a>
 			</div>
 		</section>
+		<section class="slide">
+			<div class="">
+				<h2>Component lifecycle</h2>
+				<ul>
+					<li>Mount</li>
+					<li>Update - Event listening</li>
+					<li>Unmount</li>
+				</ul>
+
+				<a href="https://facebook.github.io/react/docs/working-with-the-browser.html#component-lifecycle">More ...</a>
+			</div>
+		</section>
+		<section class="slide">
+			<div class="">
+				<h2>Ref string attribute</h2>
+				<img width="100%" src="pictures/Screenshot_9.png" />
+				<img width="100%" src="pictures/Screenshot_10.png" />
+				<pre>
+					Usage: React.findDOMNode(this.refs.myInput)
+				</pre>
+
+
+				<a href="https://facebook.github.io/react/docs/more-about-refs.html#the-ref-string-attribute">More ... </a>
+			</div>
+		</section>
     <section class="slide">
         <div>
-            <h2>React guides</h2>
-            <ul>
-                <li><a href="https://facebook.github.io/react/docs/working-with-the-browser.html#component-lifecycle">component lifecycle</a></li>
-                <li><a href="https://facebook.github.io/react/docs/more-about-refs.html#the-ref-string-attribute">the ref string attribute</a></li>
-                <li><a href="https://facebook.github.io/react/docs/advanced-performance.html">advanced performance</a></li>
-            </ul>
+            <h2>Advanced performance <small><a href="https://facebook.github.io/react/docs/advanced-performance.html">*1</a></small> </h2>
+						<img width="100%" src="pictures/Screenshot_11.png" />
         </div>
     </section>
+		<section class="slide">
+			<div class="">
+				<h2>Advanced performance <small><a href="https://facebook.github.io/react/docs/advanced-performance.html#immutable-js-to-the-rescue">*2</a></small> </h2>
+				<img width="100%" src="pictures/Screenshot_12.png" />
+			</div>
+		</section>
+		<section class="slide">
+			<div class="">
+				<img class="center-block" height="80%"  src="pictures/58311156.jpg" alt="demo time" />
+			</div>
+
+		</section>
     <section class="slide">
         <div>
             <h2>Addons/Mixins in React.addons</h2>
@@ -161,6 +197,7 @@
             </ul>
         </div>
     </section>
+
     <section class="slide">
         <div>
             <h2>Tools</h2>
@@ -201,7 +238,12 @@
 		<ul>
 			<li>https://github.com/facebook/react/issues</li>
 			<li>Slows down velocity of work in the first step</li>
-			<li>Will never support IE8 and lowers</li>
+			<li>Will never support IE8 and lowers
+					<ul>
+						<li>FB actually supports IE8, welcome to Polyfills (ES + shims)</li>
+					</ul>
+			</li>
+
 			<li>Too much code for statics stuff</li>
 			<li>No common best practices, create base components for your app (FLUX?)</li>
 			<li>how long it will be trendy?? who knows?? maybe AureliaJS</li>
