@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Shower Presentation Engine</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css">
+    <style>
+        .center-block{
+            margin: 0 auto;
+            padding: 0;
+            display: block;
+        }
+				h2 small{
+					font-size:0.8em;
+				}
+    </style>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>ReactJS </h1>
+		<p>WTF</p>
+	</header>
+	<section class="slide" id="Cover">
+		<img width="100%" src="https://camo.githubusercontent.com/59ff5a9f16ead0abb26765f31badaa40899d7e0b/687474703a2f2f692e696d6775722e636f6d2f7948334a6b49482e706e67"  />
+	</section>
+    <section class="slide">
+        <img width="100%" src="http://xage.ru/media/posts/2013/9/5/neskolko-foto-kotorye-vosstanovjat-vashu-veru-v-chelovechestvo.jpg" />
+        <div>
+            <h2>Disclaimer</h2>
+        </div>
+    </section>
+	<section class="slide">
+		<div>
+    <h2>Actual problems</h2>
+		<ul>
+			<li>Low efficiency - jQuery, Knockout, AngularJS</li>
+			<li>Hard to re-use existing html/js parts - jQuery, Knockout</li>
+			<li>Lock-In: AngularJS, ReactJs*</li>
+			<li>Opinionated Architecture: AngularJS</li>
+			<li>Accidental Complexity: AngularJS</li>
+			<li>Testing: ??</li>
+			<li>Server-side rendering: AngularJS</li>
+		</ul>
+	</div>
+	</section>
+    <section class="slide">
+        <div>
+            <h2>Plugin - Widget - Directive - Component</h2>
+        </div>
+    </section>
+		<section class="slide">
+			<div>
+				<img height="80%" class="center-block" src="pictures/wtf-plugin.jpg" />
+			</div>
+
+		</section>
+	<section class="slide">
+		<div>
+			<h2>Why ReactJs</h2>
+			<ul>
+				<li class="next">React isn't an MVC framework
+				<ul>
+					<li>React as the <b>V</b> in MVC
+						<a href="http://www.mono-software.com/blog/post/Mono/242/Improving-AngularJS-long-list-rendering-performance-using-ReactJS/" target="_blank">AngularJS and React</a>,
+						<a href="http://www.williambrownstreet.net/blog/2014/04/faster-angularjs-rendering-angularjs-and-reactjs/" target="_blank">AngularJS and React 2</a>
+						<a href="http://www.thomasboyt.com/2013/12/17/using-reactjs-as-a-backbone-view.html" target="_blank">Backbone and React</a>,
+						<a href="http://discuss.emberjs.com/t/can-reactjs-be-used-as-a-view-within-emberjs/3470/4" target="_blank">Ember and React </a>
+					</li>
+				</ul>
+				</li>
+				<li class="next">React doesn't use templates</li>
+				<li class="next">Reactive updates are dead simple</li>
+				<li class="next">ReactJS is an implementation of web components idea</li>
+        <li class="next">Anyone know how will it be when web components become a standard???</li>
+			</ul>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<img class="center-block" height='100%' src="http://www.funnyant.com/wp-content/uploads/2014/07/reactjs-virtual-dom.png" />
+	</div>
+	</section>
+	<section class="slide">
+		<div>
+			<img class="center-block" height="80%" src="http://i1.wp.com/siondream.com/blog/wp-content/uploads/2013/01/show-me-the-source-yoda.jpg?resize=400%2C400" />
+			<h2>Show me the source, Luke</h2>
+		</div>
+	</section>
+	<section class="slide">
+			<div>
+					<h2>React - what to start with</h2>
+					<img src="pictures/Screenshot_1.png" />
+			</div>
+	</section>
+	<section class="slide">
+        <div>
+					<h2>React component</h2>
+            <img width="100%" src="pictures/Screenshot_4.png" />
+        </div>
+  </section>
+	<section class="slide">
+			<div>
+					<h2>JSX</h2>
+					This
+					<img width="100%" src="pictures/Screenshot_5.png" />
+					Becomes to
+					<img width="100%" src="pictures/Screenshot_6.png" />
+			</div>
+	</section>
+    <section class="slide">
+        <div>
+					<h2>Wrong Javascript</h2>
+            <img width="100%" src="pictures/Screenshot_7.png" />
+						<img width="100%" src="pictures/Screenshot_8.png" />
+        </div>
+    </section>
+		<section class="slide">
+			<div>
+			<h2>Components are just like functions</h2>
+			<ul>
+				<li>Component looks like standard functions in Javascript</li>
+				<li>Limitations -> silent errors
+					<ul>
+						<li>only one node in return</li>
+						<li>JSX is not JS, code format matters</li>
+						<li>Make sure you close erevy tag</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		</section>
+		<section class="slide">
+			<div class="">
+				<h2>Reusable components</h2>
+				<ul>
+					<li>Property validators</li>
+					<li>Default properties</li>
+					<li>Transferring Props</li>
+					<li>Mixins</li>
+				</ul>
+				<a href="https://facebook.github.io/react/docs/reusable-components.html">More...</a>
+			</div>
+		</section>
+		<section class="slide">
+			<div class="">
+				<h2>Component lifecycle</h2>
+				<ul>
+					<li>Mount</li>
+					<li>Update - Event listening</li>
+					<li>Unmount</li>
+				</ul>
+
+				<a href="https://facebook.github.io/react/docs/working-with-the-browser.html#component-lifecycle">More ...</a>
+			</div>
+		</section>
+		<section class="slide">
+			<div class="">
+				<h2>Ref string attribute</h2>
+				<img width="100%" src="pictures/Screenshot_9.png" />
+				<img width="100%" src="pictures/Screenshot_10.png" />
+				<pre>
+					Usage: React.findDOMNode(this.refs.myInput)
+				</pre>
+
+
+				<a href="https://facebook.github.io/react/docs/more-about-refs.html#the-ref-string-attribute">More ... </a>
+			</div>
+		</section>
+    <section class="slide">
+        <div>
+            <h2>Advanced performance <small><a href="https://facebook.github.io/react/docs/advanced-performance.html">*1</a></small> </h2>
+						<img width="100%" src="pictures/Screenshot_11.png" />
+        </div>
+    </section>
+		<section class="slide">
+			<div class="">
+				<h2>Advanced performance <small><a href="https://facebook.github.io/react/docs/advanced-performance.html#immutable-js-to-the-rescue">*2</a></small> </h2>
+				<img width="100%" src="pictures/Screenshot_12.png" />
+			</div>
+		</section>
+		<section class="slide">
+			<div class="">
+				<img class="center-block" height="80%"  src="pictures/58311156.jpg" alt="demo time" />
+			</div>
+
+		</section>
+    <section class="slide">
+        <div>
+            <h2>Addons/Mixins in React.addons</h2>
+            <ul>
+                <li><a href="http://codepen.io/makenosound/pen/rstvx">CSSTransitionGroup</a></li>
+                <li><a href="https://facebook.github.io/react/docs/two-way-binding-helpers.html#reactlink-before-and-after">React link</a></li>
+                <li><a href="https://facebook.github.io/react/docs/update.html">Immutability Helpers</a></li>
+                <li>and many more</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div>
+            <h2>Tools</h2>
+            <ul>
+                <li><a href="https://github.com/facebook/react/wiki/Complementary-Tools#jsx-integrations">jsx integrations</a></li>
+                <li><a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi">react developer tool</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Flux - as new religion</h2>
+            <img src="pictures/picture.jpg" />
+            <br />
+            <a href="http://facebook.github.io/flux/docs/overview.html">holy war in action</a>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Advantages</h2>
+            <ul>
+                <li>Team development, following component-based application, CSS</li>
+                <li>Reusable components</li>
+                <li>Readable UI</li>
+                <li>Extremely efficient for dynamic pages</li>
+            </ul>
+        </div>
+    </section>
+	<section class="slide">
+		<div>
+		<h2>Problems</h2>
+		<ul>
+			<li>https://github.com/facebook/react/issues</li>
+			<li>Slows down velocity of work in the first step</li>
+			<li>Will never support IE8 and lowers
+					<ul>
+						<li>FB actually supports IE8, welcome to Polyfills (ES + shims)</li>
+					</ul>
+			</li>
+
+			<li>Too much code for statics stuff</li>
+			<li>No common best practices, create base components for your app (FLUX?)</li>
+			<li>how long it will be trendy?? who knows?? maybe AureliaJS</li>
+		</ul>
+	</div>
+	</section>
+    <section class="slide">
+        <div>
+            <h2>Performance</h2>
+            <ul>
+                <li><a href="http://dapperdeveloper.com/2015/01/26/performance-of-angularjs-reactjs-and-knockoutjs-compared/">tyc</a></li>
+                <li><a href="http://jsperf.com/angular-vs-knockout-vs-ember/292">pyc</a></li>
+                <li><a href="http://lhorie.github.io/mithril/">kyc</a></li>
+            </ul>
+        </div>
+    </section>
+	<section class="slide">
+		<div>
+			<h2>Who uses ReactJs</h2>
+			<ul>
+				<li>Facebook</li>
+				<li class="next">Instagram</li>
+				<li class="next">Vivaldi</li>
+				<li class="next">Khan Academy </li>
+				<li class="next">The New York Times’s 2014 Red Carpet Project</li>
+			</ul>
+		</div>
+	</section>
+    <section class="slide" >
+        <img class="center-block" height="100%" src="http://xage.ru/media/uploads/2013/09/malysh-i-kot.jpg" />
+    </section>
+		<section class="slide">
+        <div>
+            <h2>Exmaples</h2>
+            <a href="https://github.com/facebook/react/wiki/Examples">Examples</a>
+						<a href="https://github.com/enaqx/awesome-react">react awesome</a>
+        </div>
+    </section>
+	<div class="progress"><div></div></div>
+	<script src="shower/shower.min.js"></script>
+</body>
+</html>
